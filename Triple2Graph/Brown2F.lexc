@@ -1,0 +1,320 @@
+! Brown2F.lexc !
+!
+! Author(s): Damir Cavar,
+! Date: 06/15/2017
+! Purpose:
+!
+! Copyright 2017 by Damir Cavar,
+!
+! Licensed under the Apache License, Version 2.0 (the "License");
+! you may not use this file except in compliance with the License.
+! You may obtain a copy of the License at
+!
+!   http://www.apache.org/licenses/LICENSE-2.0
+!
+! Unless required by applicable law or agreed to in writing, software
+! distributed under the License is distributed on an "AS IS" BASIS,
+! WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+! See the License for the specific language governing permissions and
+! limitations under the License.
+
+
+
+Multichar_Symbols +N +V +P +Aux +Art +Pron +Dem +Def +Refl +Indef +Pres +PastPart +Past +PresPart +PretPres +1P +2P +3P +Sg +Pl +Q +Neg +Intens +Emph +Countable +Uncountable +Mass +Comparative +Superlative +NELanguage +NECountry +Arch +Poet +Formal +Informal +Dialect +Abbrev +Masc +Fem +Neut +Acc +Nom +Dat +Time +Place +Law +Indian +Sports +Spanish +Foreign
+
+
+LEXICON Root
++Adv:ABL% quite # ;
++Pron+PreQuant:ABN% all # ;
++Pron+PreQuant:ABN% half # ;
++Pron+PreQuant:ABN% many # ;
++Pron+PreQuant:ABN% nary # ;
++Pron+PreQuant:ABX% both # ;
++Pron+PostQuant:AP% many # ;
++Pron+PostQuant:AP% other # ;
++Pron+PostQuant:AP% next # ;
++Pron+PostQuant:AP% more # ;
++Pron+PostQuant:AP% last # ;
++Pron+PostQuant:AP% former # ;
++Pron+PostQuant:AP% little # ;
++Pron+PostQuant:AP% several # ;
++Pron+PostQuant:AP% enough # ;
++Pron+PostQuant:AP% least # ;
++Pron+PostQuant:AP% only # ;
++Pron+PostQuant:AP% very # ;
++Pron+PostQuant:AP% few # ;
++Pron+PostQuant:AP% fewer # ;
++Pron+PostQuant:AP% past # ;
++Pron+PostQuant:AP% same # ;
++Pron+PostQuant:AP% last # ;
++Pron+PostQuant:AP% latter # ;
++Pron+PostQuant:AP% less # ;
++Pron+PostQuant:AP% single # ;
++Pron+PostQuant:AP% plenty # ;
++Pron+PostQuant:AP% 'nough # ;
++Pron+PostQuant:AP% lesser # ;
++Pron+PostQuant:AP% certain # ;
++Pron+PostQuant:AP% various # ;
++Pron+PostQuant:AP% manye # ;
++Pron+PostQuant:AP% next-to-last # ;
++Pron+PostQuant:AP% particular # ;
++Pron+PostQuant:AP% final # ;
++Pron+PostQuant:AP% previous # ;
++Pron+PostQuant:AP% present # ;
++Pron+PostQuant:AP% nuf # ;
++Pron+PostQuant+Neg:AP$% other's # ;
++Art+Indef:AT% an # ;
++Art+Indef:AT% a # ;
++Art+Def:AT% the # ;
++Det+Neg:AT% no # ;
++Det+Quant+CompN-Sg:AT% every # ;
++Art+Def:AT% th' # ;
++Det+Quant+PrecedeN-Sg:AT% ever' # ;
++Pron+Dialect+Arch:AT% ye # ;
+!AP', 'AP AP+AP% many-much # ;'), ('many', 'much')),
++Det:AP% many # ;
++Pron:AP% many # ;
++Adj:AP% many # ;
++Det:AP% much # ;
++Pron:AP% much # ;
++Pron+FollowNeg:AP% much # ;
++Aux+Bare+Inf:BE% be # ;
++Aux+Bare+Imp:BE% be # ;
++Aux+2P+Sg+Past:BED% were # ;
++Aux+1P+Pl+Past:BED% were # ;
++Aux+2P+Pl+Past:BED% were # ;
++Aux+3P+Pl+Past:BED% were # ;
++Aux+1P+Pl+Past+Neg:BED*% weren't # ;
++Aux+2P+Sg+Past+Neg:BED*% weren't # ;
++Aux+2P+Pl+Past+Neg:BED*% weren't # ;
++Aux+3P+Pl+Past+Neg:BED*% weren't # ;
++Aux+3P+Sg+Past:BEDZ% was # ;
++Aux+1P+SG+Past:BEDZ% was # ;
++Aux+1P+Sg+Past+Neg:BEDZ*% wasn't # ;
++Aux+3P+Sg+Past+Neg:BEDZ*% wasn't # ;
++Aux+PresPart:BEG% being # ;
++Aux+1P+Sg+Pres:BEM% am # ;
++Aux+Neg:BEM*% ain't # ;
++Aux+PastPart:BEN% been # ;
++Aux+2P+Sg+Pres+Arch+Dialect:BER% art # ;
++Aux+2P+Sg+Pres:BER% are # ;
++Aux+1P+Pl+Pres+Arch+Dialect:BER% art # ;
++Aux+2P+Pl+Pres+Arch+Dialect:BER% art # ;
++Aux+3P+Pl+Pres+Arch+Dialect:BER% art # ;
++Aux+1P+Pl+Pres:BER% are # ;
++Aux+2P+Pl+Pres:BER% are # ;
++Aux+3P+Pl+Pres:BER% are # ;
++Aux+2P+Sg+Pres+Neg:BER*% ain't # ;
++Aux+2P+Sg+Pres+Neg:BER*% aren't # ;
++Aux+1P+Pl+Pres+Neg:BER*% ain't # ;
++Aux+2P+Pl+Pres+Neg:BER*% ain't # ;
++Aux+3P+Pl+Pres+Neg:BER*% ain't # ;
++Aux+1P+Pl+Pres+Neg:BER*% aren't # ;
++Aux+2P+Pl+Pres+Neg:BER*% aren't # ;
++Aux+3P+Pl+Pres+Neg:BER*% aren't # ;
++Aux+3P+Sg+Pres:BEZ% is # ;
++Aux+3P+Sg+Pres+Neg:BEZ*% isn't # ;
++Aux+3P+Sg+Pres+Neg:BEZ*% ain't # ;
++Conj+Coord:CC% and # ;
++Conj+Coord:CC% or # ;
++Conj+Coord:CC% but # ;
++Conj+Coord:CC% plus # ;
++Conj+Coord:CC% & # ;
++Conj+Coord:CC% either # ;
++Conj+Coord+Neg:CC% neither # ;
++Conj+Coord+Neg:CC% nor # ;
++Conj+Coord:CC% yet # ;
++Conj+Coord:CC% 'n' # ;
++Conj+Coord:CC% and/or # ;
++Conj+Coord:CC% minus # ;
++Conj+Coord:CC% an' # ;
++Num+Card:CD% zero # ;
++Num+Card+Arch:CD% naught # ;
++Num+Card+Arch:CD% nought # ;
++Num+Card+Arch:CD% aught # ; ! mid-number is 0, as in "thirty-aught-six", the .30-06 Springfield rifle cartridge
++Num+Card:CD% oh # ; ! used when spelling numbers (like telephone, bank account, bus line [British: bus route])
++Num+Card:CD% nil # ; ! in general sport scores, British usage ("The score is two–nil.")
++Num+Card:CD% nothing # ; ! in general sport scores, American usage ("The score is two–nothing.")
++Num+Card:CD% null # ; ! used technically to refer to an object or idea related to nothingness. The 0th aleph number ( ℵ 0 {\displaystyle \aleph _{0}} \aleph _{0}) is pronounced "aleph-null".
++Num+Card+Sports:CD% love # ; ! in tennis, badminton, squash and similar sports
++Num+Card+Informal:zilch # ; ! used informally
++Num+Card+Informal+Spanish+Foreign:nada # ; ! (from Spanish) used informally
++Num+Card+Informal:zip # ; ! used informally
++Num+Card:nix # ; ! also used as a verb; mostly American usage
++Num+Card+Arch:cypher # ; ! archaic, from French chiffre, in turn from Arabic sifr, meaning zero
++Num+Card+Arch:cipher # ; ! archaic, from French chiffre, in turn from Arabic sifr, meaning zero
++Num+Card+Informal:goose% egg # ;! 0 (informal)
++Num+Card+Sports:duck # ; ! (used in cricket when a batsman is dismissed without scoring)
++Num+Card:blank # ; ! the half of a domino tile with no pips
++Num+Card:CD% Numerals9 # ;
++Num+Card+Val-10:CD% ten # ;
++Num+Card+Val-11:CD% eleven # ;
++Num+Card+Val-12:CD% twelve # ;
++Num+Card+Val-12:CD% a% dozen # ;
++Num+Card+Val-13:CD% thirteen # ;
++Num+Card+Val-14:CD% fourteen # ;
++Num+Card+Val-15:CD% fifteen # ;
++Num+Card+Val-16:CD% sixteen # ;
++Num+Card+Val-17:CD% seventeen # ;
++Num+Card+Val-18:CD% eighteen # ;
++Num+Card+Val-19:CD% nineteen # ;
++Num+Card:CD% NumeralTeens # ;
++Num+Card:CD% NumeralTeens - Numerals9 # ;
++Num+Card+Val-20:CD% a% score # ;
++Num+Card+Val-100:CD% hundred # ;
++Num+Card+Val-1000:CD% thousand # ;
++Num+Card+Val-1000000:CD% million # ;
++Num+Card+Val-1000000000:CD% milliard # ;
++Num+Card+Val-1000000000:CD% billion # ;
++Num+Card+Val-1000000000000000:CD% billiard # ;
++Num+Card+Val-1000000000000:CD% trillion # ;
++Num+Card+Val-1000000000000000:CD% quadrillion # ;
++Num+Card+Val-1000000000000000000:CD% quintillion # ;
++Num+Card+Val-1000000000000000000000:CD% trilliard # ;
++Num+Card+Val-1000000000000000000000:CD% sextillion # ;
++Num+Card+Indian+Val-10000000:CD% crore # ;
++Num+Card+Indian+Val-100000:CD% lakh # ;
++Num+Card+Digit:CD% Digits # ;
++Num+Card:CD% 1913 # ;
++Num+Card:CD% 71 # ;
++Num+Card:CD% 74 # ;
++Num+Card:CD% 637 # ;
++Num+Card:CD% 1937 # ;
++Num+Card:CD% 8 # ;
++Num+Card:CD% 87-31 # ;
++Num+Card:CD # ;
+! TODO
++Num+Card+Gen:CD%$ # ; ! 1960's 1961's .404's
+! TODO
+!+Num+Card:CD% 29-5 1,119  7.5   125,000 1,700 60 100 ...
+!+Num+Card:CD% 1,119  7.5  125,000 1,700 60 100 ...
+!+Num+Card:CD% 7.5  125,000 1,700 60 100 ...
+!+Num+Card:CD% 7.5  125,000 1,700 60 100 ...
+!+Num+Card:CD% 125,000 1,700 60 100 ...
+!+Num+Card:CD% 125,000 1,700 60 100 ...
+!+Num+Card:CD% 125,000 1,700 60 100 ...
+!
++Conj+Subord:CS% that # ;
++Conj+Subord:CS% as # ;
++Conj+Subord:CS% after # ;
++Conj+Subord:CS% whether # ;
++Conj+Subord:CS% before # ;
++Conj+Subord:CS% while # ;
++Conj+Subord:CS% like # ;
++Conj+Subord:CS% because # ;
++Conj+Subord:CS% if # ;
++Conj+Subord:CS% since # ;
++Conj+Subord:CS% for # ;
++Conj+Subord:CS% than # ;
++Conj+Subord:CS% altho # ;
++Conj+Subord:CS% until # ;
++Conj+Subord:CS% so # ;
++Conj+Subord:CS% unless # ;
++Conj+Subord:CS% though # ;
++Conj+Subord:CS% providing # ;
++Conj+Subord:CS% once # ;
++Conj+Subord:CS% until # ;
++Conj+Subord:CS% so # ;
++Conj+Subord:CS% unless # ;
++Conj+Subord:CS% though # ;
++Conj+Subord:CS% providing # ;
++Conj+Subord:CS% once # ;
++Conj+Subord:CS% lest # ;
++Conj+Subord:CS% s'posin' # ;
++Conj+Subord:CS% till # ;
++Conj+Subord:CS% whereas # ;
++Conj+Subord:CS% whereupon # ;
++Conj+Subord:CS% supposing # ;
++Conj+Subord:CS% tho' # ;
++Conj+Subord:CS% albeit # ;
++Conj+Subord:CS% then # ;
++Conj+Subord:CS% so's # ;
++Conj+Subord:CS% 'fore # ;
++Aux+Bare:DO% do # ;
++Aux+Bare+2P+Sg+Pres+Arch:DO% dost # ;
++Aux+Bare+Neg:DO*% don't # ;
+do+Aux+Bare% you+Pron+2P:DO+PPSS% d'you # ;
++Aux+Finite+Past:DOD% did # ;
++Aux+Finite+PastPart:DOD% done # ;
++Aux+Finite+Past+Neg:DOD*% didn't # ;
++Aux+Finite+3P+Sg+Pres:DOZ% does # ;
++Aux+Finite+3P+Sg+Neg:DOZ*% doesn't # ;
++Aux+Finite+Neg:DOZ*% don't # ;
++Pron+Sg:DT% this # ;
++Pron+Sg:DT% each # ;
++Pron+Sg:DT% another # ;
++Pron+Sg:DT% that # ;
++Pron+Sg:DT% 'nother # ;
++Pron+Sg+Neg:DT$% another's # ;
+thet+Pron+Sg% be+Aux+Finite+3P+Sg+Pres:DT+BEZ% that's # ;
+that+Pron+Sg% will+Aux+Modal+Future:DT+MD% that'll # ;
+this+Pron+Sg% will+Aux+Modal+Future:DT+MD% this'll # ;
++Pron+PreQuant:DTI% any # ;
++Pron+PreQuant:DTI% some # ;
++Pron+Pl:DTS% these # ;
++Pron+Pl:DTS% those # ;
++Pron+Pl:DTS% them # ;
+them+Pron+Pl% be+Aux+Finite+3P+Sg:DTS+BEZ% them's # ;
++Pron+PreQuant+Neg:DTX% neither # ;
++Pron+PreQuant:DTX% either # ;
++Pron+PreQuant:DTX% one # ;
++Pron+Existential:EX% there
+there+Pron+Existential% be+Aux+Finite+3P+Sg:EX+BEZ% there's # ;
+there+Pron+Existential% have+Aux+Finite+Past:EX+HVD% there'd # ;
+there+Pron+Existential% have+Aux+Finite+3P+Sg:EX+HVZ% there's # ;
+there+Pron+Existential% will+Aux+Modal+Future:EX+MD% there'll # ;
+there+Pron+Existential% would+Aux+Modal:EX+MD% there'd # ;
++Neg+Foreign+French:FW-*% pas # ;
++Neg+Foreign:FW-*% non # ;
++Neg+Foreign+French:FW-*% ne # ;
++Art+Fem+Sg+Foreign:FW-AT% la # ;
++Art+Foreign:FW-AT% le # ;
++Art+Masc+Sg+Foreign+Spanish:FW-AT% el # ;
++Art+Foreign:FW-AT% un # ;
++Art+Def+Foreign+German:FW-AT% die # ;
++Art+Def+Foreign+German:FW-AT% der # ;
++Art+Indef+Foreign+German:FW-AT% ein # ;
++Art+Foreign+German:FW-AT% keine # ;
++Art+Indef+Foreign+German:FW-AT% eine # ;
++Art+Def+Foreign+German:FW-AT% das # ;
++Art+Fem+Pl+Foreign:FW-AT% las # ;
++Art+Foreign:FW-AT% les # ;
++Art+Foreign:FW-AT% Il # ;
+l'+Art+Foreign% +N+Common+Sg+Foreign:FW-AT+NN% l'orchestre l'identite l'arcade l'ange l'assistance l'activite L'Universite l'independance L'Union L'Unita l'osservatore	foreign word: article + noun, singular, common
+
+
+LEXICON Digits
+0 ;
+1 ;
+2 ;
+3 ;
+4 ;
+5 ;
+6 ;
+7 ;
+8 ;
+9 ;
+
+
+LEXICON Numerals9
++Val-1:one ;
++Val-2:two ;
++Val-3:three ;
++Val-4:four ;
++Val-5:five ;
++Val-6:six ;
++Val-7:seven ;
++Val-8:eight ;
++Val-9:nine ;
+
+
+LEXICON NumeralTeens
++Val-20:twenty ;
++Val-30:thirty ;
++Val-40:forty ;
++Val-50:fifty ;
++Val-60:sixty ;
++Val-70:seventy ;
++Val-80:eighty ;
++Val-90:ninety ;
+

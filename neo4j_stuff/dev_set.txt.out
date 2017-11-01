@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Tim</word>
+            <lemma>Tim</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+          </token>
+          <token id="2">
+            <word>Cook</word>
+            <lemma>Cook</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+          </token>
+          <token id="3">
+            <word>heads</word>
+            <lemma>head</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+          </token>
+          <token id="4">
+            <word>Apple</word>
+            <lemma>Apple</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+          </token>
+          <token id="5">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>ORGANIZATION</NER>
+          </token>
+          <token id="6">
+            <word>Inc.</word>
+            <lemma>Inc.</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+          </token>
+          <token id="7">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Tim) (NNP Cook)) (VP (VBZ heads) (NP (NP (NNP Apple)) (, ,) (NP (NNP Inc.)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">heads</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Cook</governor>
+            <dependent idx="1">Tim</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">heads</governor>
+            <dependent idx="2">Cook</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">heads</governor>
+            <dependent idx="4">Apple</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Apple</governor>
+            <dependent idx="5">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="4">Apple</governor>
+            <dependent idx="6">Inc.</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">heads</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">heads</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Cook</governor>
+            <dependent idx="1">Tim</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">heads</governor>
+            <dependent idx="2">Cook</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">heads</governor>
+            <dependent idx="4">Apple</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Apple</governor>
+            <dependent idx="5">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="4">Apple</governor>
+            <dependent idx="6">Inc.</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">heads</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">heads</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Cook</governor>
+            <dependent idx="1">Tim</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">heads</governor>
+            <dependent idx="2">Cook</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">heads</governor>
+            <dependent idx="4">Apple</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Apple</governor>
+            <dependent idx="5">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="4">Apple</governor>
+            <dependent idx="6">Inc.</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">heads</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

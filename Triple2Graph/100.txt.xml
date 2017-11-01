@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Mr.</word>
+            <lemma>Mr.</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+          </token>
+          <token id="2">
+            <word>McManaman</word>
+            <lemma>McManaman</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+          </token>
+          <token id="3">
+            <word>has</word>
+            <lemma>have</lemma>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+          </token>
+          <token id="4">
+            <word>extensive</word>
+            <lemma>extensive</lemma>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+          </token>
+          <token id="5">
+            <word>experience</word>
+            <lemma>experience</lemma>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="6">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="7">
+            <word>corporate</word>
+            <lemma>corporate</lemma>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+          </token>
+          <token id="8">
+            <word>finance</word>
+            <lemma>finance</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="9">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+          </token>
+          <token id="10">
+            <word>leadership</word>
+            <lemma>leadership</lemma>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="11">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="12">
+            <word>major</word>
+            <lemma>major</lemma>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+          </token>
+          <token id="13">
+            <word>organizations</word>
+            <lemma>organization</lemma>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+          </token>
+          <token id="14">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>98</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+          </token>
+          <token id="15">
+            <word>previous</word>
+            <lemma>previous</lemma>
+            <CharacterOffsetBegin>99</CharacterOffsetBegin>
+            <CharacterOffsetEnd>107</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+          </token>
+          <token id="16">
+            <word>experience</word>
+            <lemma>experience</lemma>
+            <CharacterOffsetBegin>108</CharacterOffsetBegin>
+            <CharacterOffsetEnd>118</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="17">
+            <word>serving</word>
+            <lemma>serve</lemma>
+            <CharacterOffsetBegin>119</CharacterOffsetBegin>
+            <CharacterOffsetEnd>126</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+          </token>
+          <token id="18">
+            <word>on</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>127</CharacterOffsetBegin>
+            <CharacterOffsetEnd>129</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="19">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>130</CharacterOffsetBegin>
+            <CharacterOffsetEnd>133</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+          </token>
+          <token id="20">
+            <word>boards</word>
+            <lemma>board</lemma>
+            <CharacterOffsetBegin>134</CharacterOffsetBegin>
+            <CharacterOffsetEnd>140</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+          </token>
+          <token id="21">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>141</CharacterOffsetBegin>
+            <CharacterOffsetEnd>143</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="22">
+            <word>other</word>
+            <lemma>other</lemma>
+            <CharacterOffsetBegin>144</CharacterOffsetBegin>
+            <CharacterOffsetEnd>149</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+          </token>
+          <token id="23">
+            <word>public</word>
+            <lemma>public</lemma>
+            <CharacterOffsetBegin>150</CharacterOffsetBegin>
+            <CharacterOffsetEnd>156</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+          </token>
+          <token id="24">
+            <word>companies</word>
+            <lemma>company</lemma>
+            <CharacterOffsetBegin>157</CharacterOffsetBegin>
+            <CharacterOffsetEnd>166</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+          </token>
+          <token id="25">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>166</CharacterOffsetBegin>
+            <CharacterOffsetEnd>167</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Mr.) (NNP McManaman)) (VP (VBZ has) (NP (NP (NP (JJ extensive) (NN experience)) (PP (IN in) (NP (JJ corporate) (NN finance)))) (, ,) (NP (NP (NN leadership)) (PP (IN of) (NP (JJ major) (NNS organizations)))) (CC and) (NP (NP (JJ previous) (NN experience)) (VP (VBG serving) (PP (IN on) (NP (NP (DT the) (NNS boards)) (PP (IN of) (NP (JJ other) (JJ public) (NNS companies))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">has</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">McManaman</governor>
+            <dependent idx="1">Mr.</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">has</governor>
+            <dependent idx="2">McManaman</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">experience</governor>
+            <dependent idx="4">extensive</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">has</governor>
+            <dependent idx="5">experience</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">finance</governor>
+            <dependent idx="6">in</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">finance</governor>
+            <dependent idx="7">corporate</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="5">experience</governor>
+            <dependent idx="8">finance</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">experience</governor>
+            <dependent idx="9">,</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="5">experience</governor>
+            <dependent idx="10">leadership</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">organizations</governor>
+            <dependent idx="11">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">organizations</governor>
+            <dependent idx="12">major</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="10">leadership</governor>
+            <dependent idx="13">organizations</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">experience</governor>
+            <dependent idx="14">and</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">experience</governor>
+            <dependent idx="15">previous</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="5">experience</governor>
+            <dependent idx="16">experience</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="16">experience</governor>
+            <dependent idx="17">serving</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="20">boards</governor>
+            <dependent idx="18">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">boards</governor>
+            <dependent idx="19">the</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="17">serving</governor>
+            <dependent idx="20">boards</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="24">companies</governor>
+            <dependent idx="21">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="24">companies</governor>
+            <dependent idx="22">other</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="24">companies</governor>
+            <dependent idx="23">public</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="20">boards</governor>
+            <dependent idx="24">companies</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">has</governor>
+            <dependent idx="25">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">has</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">McManaman</governor>
+            <dependent idx="1">Mr.</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">has</governor>
+            <dependent idx="2">McManaman</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">experience</governor>
+            <dependent idx="4">extensive</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">has</governor>
+            <dependent idx="5">experience</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">finance</governor>
+            <dependent idx="6">in</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">finance</governor>
+            <dependent idx="7">corporate</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="5">experience</governor>
+            <dependent idx="8">finance</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">experience</governor>
+            <dependent idx="9">,</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="5">experience</governor>
+            <dependent idx="10">leadership</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">organizations</governor>
+            <dependent idx="11">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">organizations</governor>
+            <dependent idx="12">major</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="10">leadership</governor>
+            <dependent idx="13">organizations</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">experience</governor>
+            <dependent idx="14">and</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">experience</governor>
+            <dependent idx="15">previous</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="5">experience</governor>
+            <dependent idx="16">experience</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="16">experience</governor>
+            <dependent idx="17">serving</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="20">boards</governor>
+            <dependent idx="18">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">boards</governor>
+            <dependent idx="19">the</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="17">serving</governor>
+            <dependent idx="20">boards</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="24">companies</governor>
+            <dependent idx="21">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="24">companies</governor>
+            <dependent idx="22">other</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="24">companies</governor>
+            <dependent idx="23">public</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="20">boards</governor>
+            <dependent idx="24">companies</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">has</governor>
+            <dependent idx="25">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">has</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">McManaman</governor>
+            <dependent idx="1">Mr.</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">has</governor>
+            <dependent idx="2">McManaman</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">experience</governor>
+            <dependent idx="4">extensive</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">has</governor>
+            <dependent idx="5">experience</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">finance</governor>
+            <dependent idx="6">in</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">finance</governor>
+            <dependent idx="7">corporate</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="5">experience</governor>
+            <dependent idx="8">finance</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">experience</governor>
+            <dependent idx="9">,</dependent>
+          </dep>
+          <dep type="dobj" extra="true">
+            <governor idx="3">has</governor>
+            <dependent idx="10">leadership</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="5">experience</governor>
+            <dependent idx="10">leadership</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">organizations</governor>
+            <dependent idx="11">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">organizations</governor>
+            <dependent idx="12">major</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="10">leadership</governor>
+            <dependent idx="13">organizations</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">experience</governor>
+            <dependent idx="14">and</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">experience</governor>
+            <dependent idx="15">previous</dependent>
+          </dep>
+          <dep type="dobj" extra="true">
+            <governor idx="3">has</governor>
+            <dependent idx="16">experience</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="5">experience</governor>
+            <dependent idx="16">experience</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="16">experience</governor>
+            <dependent idx="17">serving</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="20">boards</governor>
+            <dependent idx="18">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">boards</governor>
+            <dependent idx="19">the</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="17">serving</governor>
+            <dependent idx="20">boards</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="24">companies</governor>
+            <dependent idx="21">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="24">companies</governor>
+            <dependent idx="22">other</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="24">companies</governor>
+            <dependent idx="23">public</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="20">boards</governor>
+            <dependent idx="24">companies</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">has</governor>
+            <dependent idx="25">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

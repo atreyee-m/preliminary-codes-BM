@@ -1,0 +1,2 @@
+apple	12345	CA	"tech	company"
+google	12345	CA	"tech	company"

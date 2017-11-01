@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="99.5 111.5 578 276" width="578pt" height="23pc" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata> Produced by OmniGraffle 7.4 
+    <dc:date>2017-07-13 16:37:37 +0000</dc:date>
+  </metadata>
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="500">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="12" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="500">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_2" viewBox="-9 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M -8 0 L 0 3 L 0 -3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+  </defs>
+  <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
+    <title>Canvas 1</title>
+    <rect fill="white" width="578" height="276"/>
+    <g>
+      <title>Layer 1</title>
+      <rect x="100" y="112" width="153" height="103" fill="white"/>
+      <rect x="100" y="112" width="153" height="103" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(105 147.108)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" fill="black" x="6.02" y="15" textLength="130.96">Concept Extractor</tspan>
+        <tspan font-family="Helvetica Neue" font-size="12" font-weight="500" x="10.498" y="29.447998" textLength="122.004">(NLP for any language)</tspan>
+      </text>
+      <rect x="312" y="112" width="153" height="103" fill="white"/>
+      <rect x="312" y="112" width="153" height="103" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(317 147.108)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" fill="black" x="35.94" y="15" textLength="71.12">Graph DB</tspan>
+        <tspan font-family="Helvetica Neue" font-size="12" font-weight="500" x="16.156" y="29.447998" textLength="86.904">(Neo4J and Star</tspan>
+        <tspan font-family="Helvetica Neue" font-size="12" font-weight="500" x="102.844" y="29.447998" textLength="24">dog)</tspan>
+      </text>
+      <line x1="253" y1="161" x2="302.1017" y2="161.90594" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="524" y="112" width="153" height="103" fill="white"/>
+      <rect x="524" y="112" width="153" height="103" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(529 132.772)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" fill="black" x="53.564" y="15" textLength="35.872">OWL</tspan>
+        <tspan font-family="Helvetica Neue" font-size="12" font-weight="500" fill="black" x="27.058" y="29.447998" textLength="7.104">(r</tspan>
+        <tspan font-family="Helvetica Neue" font-size="12" font-weight="500" fill="black" x="33.946" y="29.447998" textLength="85.332">estrictions over </tspan>
+        <tspan font-family="Helvetica Neue" font-size="12" font-weight="500" fill="black" x=".376" y="43.783997" textLength="145.584">insertions of concepts and </tspan>
+        <tspan font-family="Helvetica Neue" font-size="12" font-weight="500" fill="black" x="47.278" y="58.119995" textLength="3.996">r</tspan>
+        <tspan font-family="Helvetica Neue" font-size="12" font-weight="500" fill="black" x="51.058" y="58.119995" textLength="44.664">elations)</tspan>
+      </text>
+      <path d="M 523 161 L 465 161.73047 L 465 161.73047 L 465 161.73047 L 465 161.73047" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="312" y="284" width="153" height="103" fill="white"/>
+      <rect x="312" y="284" width="153" height="103" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(317 326.276)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" fill="black" x="39.34" y="15" textLength="14.512">Fr</tspan>
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" fill="black" x="53.564" y="15" textLength="50.096">ontend</tspan>
+      </text>
+      <line x1="388.5" y1="224.9" x2="388.5" y2="274.1" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledArrow_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="524" y="284" width="153" height="103" fill="white"/>
+      <rect x="524" y="284" width="153" height="103" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(529 311.94)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="25.284" y="15" textLength="14.816">W</tspan>
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="39.188" y="15" textLength="38.224">eb Pr</tspan>
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="77.124" y="15" textLength="40.592">otege</tspan>
+        <tspan font-family="Helvetica Neue" font-size="12" font-weight="500" x="17.266" y="29.447998" textLength="111.804">(Design OWL for the </tspan>
+        <tspan font-family="Helvetica Neue" font-size="12" font-weight="500" x="49.936" y="43.783997" textLength="43.128">domain)</tspan>
+      </text>
+      <line x1="600.5" y1="284" x2="600.5" y2="224.9" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
